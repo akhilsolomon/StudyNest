@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Left Panel -->
+
+    <!-- Content Frame -->
+
+    <LinearLayout
+        android:id="@+id/left_panel"
+        android:layout_width="202dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/resourc_back"
+        android:orientation="vertical"
+        android:padding="16dp"> <!-- Use the background you specified -->
+
+
+        <!-- User's Name -->
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp"
+            android:text="User Name"
+            android:textColor="#3A3A3A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- User's Email -->
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="user@example.com"
+            android:textColor="#3A3A3A"
+            android:textSize="16sp" />
+
+        <!-- Edit Profile Button -->
+        <Button
+            android:id="@+id/edit_profile_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/rounded_button"
+            android:text="Edit Profile" />
+
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_button_filled"
+            android:text="Logout" />
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/toggle_button"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:text=">" />
+    </FrameLayout>
+
+    <!-- Toggle Button for Left Panel -->
+</LinearLayout>

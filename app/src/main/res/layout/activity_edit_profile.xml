@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resourc_back"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Spacer view at the top -->
+    <View
+        android:id="@+id/spacer_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <!-- Edit Name -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/edit_text_background"
+            android:hint="Change Name"
+            android:padding="16dp"
+            android:textColorHint="@color/lightGray"/>
+    </LinearLayout>
+
+    <!-- Edit Password -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/edit_text_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_background"
+            android:hint="New Password"
+            android:padding="16dp"
+            android:textColorHint="@color/lightGray"/>
+    </LinearLayout>
+
+    <!-- Re-enter Password -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <EditText
+            android:id="@+id/edit_text_reenter_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="textPassword"
+            android:background="@drawable/edit_text_background"
+            android:hint="Re-enter Password"
+            android:padding="16dp"
+            android:textColorHint="@color/lightGray"/>
+    </LinearLayout>
+
+    <!-- Save Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:background="@drawable/button_background"
+            android:textColor="@color/white"
+            android:padding="16dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</LinearLayout>

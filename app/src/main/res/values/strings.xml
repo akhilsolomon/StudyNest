@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Study Nest</string>
+    <string name="logo_desc">Study Nest Logo</string>
+    <string name="login_arrow_desc">Login Button Arrow</string>
+    <string name="register_arrow_desc">Register Button Arrow</string>
+
+
+
+
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="search_hint">Search</string>
+    <string name="signup_text">SIGNUP</string>
+    <string name="login_text">LOGIN</string>
+    <string name="logout_text">LOGOUT</string>
+    <string name="username_text">Change Username</string>
+    <string name="Password_text">Change Password</string>
+    <string name="contributions_text">Contributions</string>
+    <string name="contact_text">Contact us</string>
+    <string name="course_text">Course ID  :\nCourse Name: </string>
+
+
+    <string name="appInfo_text">App info</string>
+    <string name="login_prompt">Already registered? Login</string>
+    <string name="user_prompt">USERNAME</string>
+    <string name="signup_prompt">Not yet Registered? Signup</string>
+    <string name="studynest">LoginPage</string>
+    <string name="email">Email</string>
+    <string name="email_text">abcd@gmail.com</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="cs_text">Computer Science</string>
+    <string name="ee_text">Electrical Engineering</string>
+    <string name="me_text">Mechanical Engineering</string>
+    <string name="ch_text">Chemical Engineering</string>
+    <string name="ce_text">Civil Engineering</string>
+    <string name="reEnterpassword_hint">re-enter Password</string>
+</resources>

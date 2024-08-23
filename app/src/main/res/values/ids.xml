@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="opening" type="id" />
+    <item name="top_corner" type="id" />
+    <item name="bottom_corner" type="id" />
+    <item name="logo" type="id" />
+    <item name="app_name" type="id" />
+    <item name="admin_username" type="id" />
+    <item name="admin_email" type="id" />
+    <item name="button_logout" type="id" />
+</resources>

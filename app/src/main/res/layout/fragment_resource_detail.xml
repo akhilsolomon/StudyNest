@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/change_prof_back"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Spacer view at the top -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="90dp" />
+
+    <!-- Resource Name -->
+    <TextView
+        android:id="@+id/text_view_resource_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textColorHint="@color/lightGray"
+        android:text="Resource Name"
+        android:layout_marginTop="40dp" />
+
+    <!-- Resource Description -->
+    <TextView
+        android:id="@+id/text_view_resource_description"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textColorHint="@color/lightGray"
+        android:text="Description"
+        android:layout_marginTop="10dp" />
+
+    <!-- Resource URL -->
+    <TextView
+        android:id="@+id/text_view_resource_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:textColorHint="@color/lightGray"
+        android:text="Resource URL"
+        android:clickable="true"
+        android:autoLink="web"
+        android:layout_marginTop="10dp" />
+</LinearLayout>

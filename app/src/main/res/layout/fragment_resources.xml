@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/resourc_back">
+
+    <!-- Spacer view at the top -->
+    <View
+        android:id="@+id/spacer_view"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" />
+
+    <!-- Resources view title -->
+    <LinearLayout
+        android:id="@+id/resources_view"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/spacer_view"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/corner_gradient"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resources"
+            android:textSize="22sp"
+            android:textColor="#3A3A3A"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- Scrollable area for resources -->
+    <ScrollView
+        android:id="@+id/resource_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/resources_view"
+        android:layout_above="@id/add_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Placeholder for dynamic resource items -->
+            <ListView
+                android:id="@+id/resource_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@android:color/darker_gray"
+                android:dividerHeight="1dp"
+                android:padding="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Contribute Resource Button -->
+    <LinearLayout
+        android:id="@+id/add_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/corner_gradient"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="40sp"
+            android:textColor="@color/lightGray"
+            android:gravity="center" />
+    </LinearLayout>
+
+</RelativeLayout>
