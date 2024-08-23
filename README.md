@@ -48,5 +48,22 @@ Upon launching the app, users are greeted with a Welcome page, where they can ch
 - Satyannarayana   (CS22B011) : [UI designing using Figma, XML for layouts in Android Studio , backend to UI code Inttegration]
 - Pranav Chalavadi (CS22B014) : [UI designing using Figma]
 
+##Screenshots
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0008.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0009.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0010.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0011.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0012.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0013.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0014.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0015.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0016.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0017.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0018.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0019.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0020.jpg)
+![img](https://github.com/akhilsolomon/StudyNest/blob/master/IMG-20240820-WA0021.jpg)
+
+
 
 
